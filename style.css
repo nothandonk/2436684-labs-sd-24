@@ -1,0 +1,53 @@
+li {
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px;
+}
+
+
+nav{
+    background-color: #222;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #fff;    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Aboutus{
+    text-align: center;
+    /*justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;*/
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.foodimages{
+    border: 1px solid grey;
+}
+
+img{
+    margin: 0 auto;
+    display: flex;
+    width: 600px;
+    height: 400px;
+}
+
+footer{
+    text-align: center;
+    background-color: #222;
+    color:#fff;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
